@@ -1,8 +1,13 @@
 # -*- coding: utf-8 -*-
 # Author: XiaoXinYo
 
-HOST = '0.0.0.0' # 监听地址
-PORT = 5000 # 监听端口
+HOST = '0.0.0.0' # 地址
+PORT = 5000 # 端口
+SSL = {
+    'enable': False, # 启用SSL
+    'keyPath': '', # SSL Key路径
+    'certPath': '' # SSL Cert路径
+}
 
 PROXY = '' # 代理
 
